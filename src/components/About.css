@@ -1,0 +1,30 @@
+.title {
+  font-size: 50px;
+  color: yellow;
+  font-family: Arimo;
+  font: sans-serif;
+}
+
+.body {
+  font-size: 32px;
+  color: yellow;
+  font-family: Arimo;
+  font: sans-serif;
+}
+
+.about {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+

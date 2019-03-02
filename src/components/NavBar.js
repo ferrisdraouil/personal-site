@@ -7,7 +7,7 @@ class NavBar extends Component {
       <Navbar inverse collapseOnSelect style={{ color: 'purple' }}>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">Ferris Draouil</a>
+            <a href="/">Home</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -20,7 +20,7 @@ class NavBar extends Component {
               Portfolio
             </NavItem>
             <NavItem eventKey={1} href="/contact">
-              Contact
+              Connect
             </NavItem>
           </Nav>
         </Navbar.Collapse>
