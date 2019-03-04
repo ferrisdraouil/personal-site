@@ -87,7 +87,7 @@ Portfolio.defaultProps = {
     title: 'Winning in the NFL',
     link: 'https://github.com/ferrisdraouil/nfl_data',
     img: nfl,
-    stack: 'React.js, Python, Pandas',
+    stack: 'React.js, Python, Pandas, D3',
     description:
       'Using Python and the Pandas library, I attempt to quantify the key moments and situations that have an outsize impact on winning and winning against the betting spread.  The CSV data is read, queried, and parsed using Python OOP methods.  The results can be viewed in this page, or alternatively, you can fork the Github repo and use it to derive your own insights.'
   }

@@ -5,13 +5,6 @@ hr {
   background-color: #d70026;
 }
 
-/* .Portfolio {
-  display: flex;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-} */
-
 .header {
   display: flex;
   justify-content: left;
