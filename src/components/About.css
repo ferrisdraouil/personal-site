@@ -1,8 +1,12 @@
 hr {
   border: none;
-  height: 1px;
+  height: 2px;
   color: #aa4b41;
-  background-color: #aa4b41; 
+  background-color: #aa4b41;
+}
+
+p {
+  text-shadow: 1px 1px 1px #2d3033;
 }
 
 .title {

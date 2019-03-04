@@ -1,3 +1,10 @@
+hr {
+  border: none;
+  height: 2px;
+  color: #aa4b41;
+  background-color: #aa4b41;
+}
+
 .Portfolio {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -12,24 +19,9 @@
   grid-column: 1 / -1;
   color: #335252;
   text-shadow: 2px 2px 2px #2d3033;
-  text-align: starts
+  text-align: starts;
 }
 
-.jobly-photo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  grid-row: 2 / 4;
-}
-
-.jobly-title {
-  color:#aa4b41;
-  text-shadow: 2px 2px 2px #2d3033;
-}
-.jobly-details {
-  list-style: none;
-  color:#2d3033;
-  text-shadow: 2px 2px 2px #335252;
-  grid-row: 3 / 4;
+.project {
+  grid-column: 1 / -1;
 }

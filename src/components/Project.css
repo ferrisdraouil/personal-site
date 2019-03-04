@@ -1,0 +1,40 @@
+.Project {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.project-photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  grid-row: 1 / 3;
+}
+
+.project-title {
+  color:#335252;
+  text-shadow: 2px 2px 2px #2d3033;
+}
+.project-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  color:#335252;
+  text-shadow: 0.3px 0.3px 0.3px #335252;
+  grid-row: 1 / 4;
+  grid-column: 2 / -1;
+  font-size: 1.2em
+}
+
+#project-stack {
+  grid-row: 1;
+  grid-column: 2 ;
+}
+#project-description {
+  grid-row: 2 / 4;
+  grid-column: 2 / -1;
+}
