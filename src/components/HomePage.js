@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './HomePage.css'
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -10,55 +11,16 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div
-        className="HomePage"
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          height: '100%',
-          justifyContent: 'space-between'
-        }}
-      >
-        <div
-          style={{
-            marginLeft: '20%',
-            marginRight: '20%',
-            marginTop: '10%',
-            marginBottom: '10%'
-          }}
-        >
+      <div id="HomePage">
+        <div className="one">
           <About />
         </div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-around',
-            marginTop: '10%',
-            marginBottom: '10%'
-          }}
-        >
+        <div className='two'>
           <Portfolio />
         </div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-around',
-            marginTop: '10%',
-            marginBottom: '10%'
-          }}
-        >
+        <div className='three'>
           <Contact />
         </div>
-
-        {/* <div>
-          <Link to="/portfolio">Portfolio</Link>
-        </div>
-        <div>
-          <Link to="/about">About</Link>
-        </div>
-        <div>
-          <Link to="/contact">Contact</Link>
-        </div> */}
       </div>
     );
   }

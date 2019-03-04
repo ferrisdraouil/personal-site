@@ -1,19 +1,28 @@
+hr {
+  border: none;
+  height: 1px;
+  color: #aa4b41;
+  background-color: #aa4b41; 
+}
+
 .title {
   font-size: 50px;
-  color: yellow;
+  color: #335252;
+  text-shadow: 2px 2px 2px #2d3033;
   font-family: Arimo;
   font: sans-serif;
 }
 
 .body {
   font-size: 32px;
-  color: yellow;
+  color: #335252;
+  text-shadow: 2px 2px 2px #2d3033;
   font-family: Arimo;
   font: sans-serif;
 }
 
 .about {
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 @keyframes text-focus-in {
@@ -26,5 +35,3 @@
     opacity: 1;
   }
 }
-
-

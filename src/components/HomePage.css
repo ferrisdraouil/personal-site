@@ -1,0 +1,22 @@
+#HomePage {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-row: 1 / 6;
+  grid-column: 2 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  grid-row: 6 /11;
+  grid-column: 2 / 5;
+}
+.three {
+  grid-row: 11/16;
+  grid-column: 2 / 5;
+}

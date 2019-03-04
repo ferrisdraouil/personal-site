@@ -1,0 +1,35 @@
+.Portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  grid-row: 1;
+  grid-column: 1 / -1;
+  color: #335252;
+  text-shadow: 2px 2px 2px #2d3033;
+  text-align: starts
+}
+
+.jobly-photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  grid-row: 2 / 4;
+}
+
+.jobly-title {
+  color:#aa4b41;
+  text-shadow: 2px 2px 2px #2d3033;
+}
+.jobly-details {
+  list-style: none;
+  color:#2d3033;
+  text-shadow: 2px 2px 2px #335252;
+  grid-row: 3 / 4;
+}

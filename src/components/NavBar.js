@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 class NavBar extends Component {
   render() {
     return (
-      <Navbar inverse collapseOnSelect style={{ color: 'purple' }}>
+      <Navbar inverse collapseOnSelect style={{ backgroundColor:'#00cffa' }}>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="/">Home</a>

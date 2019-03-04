@@ -7,11 +7,10 @@ class About extends Component {
       <div className="about">
         <h1 className="title">Hi, I'm Ferris!</h1>
         <p className="body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          eaque ut rem natus veniam amet neque magnam ducimus? Nisi cum
-          perferendis soluta inventore deserunt voluptates officia repellendus,
-          autem voluptatibus nemo.
+          <p>I am a Full-Stack Web Developer.</p>
+          <p>Take a look at some of my work, or reach out and say hello!</p>
         </p>
+        <hr/>
       </div>
     );
   }
