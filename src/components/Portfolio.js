@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './Portfolio.css';
 import jobly from '.././screenshots/jobly.png';
 import microblog from '.././screenshots/microblog.png';
+import nfl from '.././screenshots/nfl.png';
 import Project from './Project';
 
 class Portfolio extends Component {
   render() {
-    const { theRelish, jobly, microblog } = this.props;
+    const { theRelish, jobly, microblog, nfl } = this.props;
     return (
       <div className="Portfolio">
         <header className="header">
@@ -19,6 +20,16 @@ class Portfolio extends Component {
             img={theRelish.img}
             stack={theRelish.stack}
             description={theRelish.description}
+          />
+          <hr />
+        </div>
+        <div className="project">
+          <Project
+            title={nfl.title}
+            link={nfl.link}
+            img={nfl.img}
+            stack={nfl.stack}
+            description={nfl.description}
           />
           <hr />
         </div>
@@ -71,6 +82,14 @@ Portfolio.defaultProps = {
     stack: 'React.js, Redux.js, Node.js, Express.js, PostgreSQL',
     description:
       'A Full-Stack blog clone.  Users have full CRUD on articles, comments, and votes.'
+  },
+  nfl: {
+    title: 'Winning in the NFL',
+    link: 'https://github.com/ferrisdraouil/nfl_data',
+    img: nfl,
+    stack: 'React.js, Python, Pandas',
+    description:
+      'Quantifying the key moments and situations that have an outsize impact on winning and winning against the spread.'
   }
 };
 

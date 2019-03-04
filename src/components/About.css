@@ -1,8 +1,8 @@
 hr {
   border: none;
   height: 2px;
-  color: #aa4b41;
-  background-color: #aa4b41;
+  color: #d70026;
+  background-color: #d70026;
 }
 
 p {
@@ -11,16 +11,16 @@ p {
 
 .title {
   font-size: 50px;
-  color: #335252;
-  text-shadow: 2px 2px 2px #2d3033;
+  color: #d70026;
+  text-shadow: 2px 2px 2px #000b29;
   font-family: Arimo;
   font: sans-serif;
 }
 
 .body {
   font-size: 32px;
-  color: #335252;
-  text-shadow: 2px 2px 2px #2d3033;
+  color: #000b29;
+  text-shadow: 2px 2px 2px #d70026;
   font-family: Arimo;
   font: sans-serif;
 }

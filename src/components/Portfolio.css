@@ -1,8 +1,8 @@
 hr {
   border: none;
   height: 2px;
-  color: #aa4b41;
-  background-color: #aa4b41;
+  color: #000b29;
+  background-color: #d70026;
 }
 
 .Portfolio {
@@ -17,8 +17,8 @@ hr {
   justify-content: left;
   grid-row: 1;
   grid-column: 1 / -1;
-  color: #335252;
-  text-shadow: 2px 2px 2px #2d3033;
+  color: #d70026;
+  text-shadow: 1px 1px 1px #000b29;
   text-align: starts;
 }
 
