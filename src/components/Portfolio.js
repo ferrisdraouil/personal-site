@@ -73,7 +73,7 @@ Portfolio.defaultProps = {
     img: jobly,
     stack: 'React.js, Redux.js, PostgreSQL, HTML5, CSS3',
     description:
-      'A job board clone that allows companies to post jobs and job seekers to create an account, view jobs, and apply.'
+      'A Full-Stack job board clone.  Users have the ability to create an account, log-in, search for companies, search for jobs and apply to them.  Companies can post jobs.  All data is stored in a Postgres Database.'
   },
   microblog: {
     title: 'Microblog',
@@ -81,7 +81,7 @@ Portfolio.defaultProps = {
     img: microblog,
     stack: 'React.js, Redux.js, Node.js, Express.js, PostgreSQL',
     description:
-      'A Full-Stack blog clone.  Users have full CRUD on articles, comments, and votes.'
+      'A Full-Stack blog clone.  Users have full CRUD on articles, comments, and votes.  Details on all blogs, comments, and votes are stored in a Postgres Database.'
   },
   nfl: {
     title: 'Winning in the NFL',
@@ -89,7 +89,7 @@ Portfolio.defaultProps = {
     img: nfl,
     stack: 'React.js, Python, Pandas',
     description:
-      'Quantifying the key moments and situations that have an outsize impact on winning and winning against the spread.'
+      'Using Python and the Pandas library, I attempt to quantify the key moments and situations that have an outsize impact on winning and winning against the betting spread.  The CSV data is read, queried, and parsed using Python OOP methods.  The results can be viewed in this page, or alternatively, you can fork the Github repo and use it to derive your own insights.'
   }
 };
 

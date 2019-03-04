@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
-import './Project.css'
+import './Project.css';
 
 class Project extends Component {
   render() {
     return (
-      <div className="Project">
-        <div className="project-photo">
-          <h2 className="project-title">{this.props.title}</h2>
-          <a href={this.props.projectLink}>
-            <img
-              src={this.props.img}
-              alt="#"
-              style={{ width: '15rem' }}
-            />
-          </a>
-        </div>
-        <ul className="project-details">
-          <li id='project-stack'>
+      <div className="Project media my-5">
+        <a href={this.props.link} className='image-link'>
+          <img
+            className="align-self-start"
+            src={this.props.img}
+            alt="#"
+            style={{ width: '15rem' }}
+          />
+        </a>
+        <div className="media-body">
+          <h2 className="project-title mt-0 mb-4">{this.props.title}</h2>
+          <p className='project-details'>
             <b>Stack:</b> {this.props.stack}
-          </li>
-          <li id='project-description'>
+          </p>
+          <p className='project-details'>
             <b>Description:</b> {this.props.description}
-          </li>
-        </ul>
+          </p>
+        </div>
       </div>
     );
   }

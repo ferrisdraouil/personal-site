@@ -5,7 +5,7 @@ hr {
   background-color: #d70026;
 }
 
-p {
+.blurb {
   text-shadow: 1px 1px 1px #2d3033;
 }
 
@@ -13,16 +13,12 @@ p {
   font-size: 50px;
   color: #d70026;
   text-shadow: 2px 2px 2px #000b29;
-  font-family: Arimo;
-  font: sans-serif;
 }
 
 .body {
   font-size: 32px;
   color: #000b29;
   text-shadow: 2px 2px 2px #d70026;
-  font-family: Arimo;
-  font: sans-serif;
 }
 
 .about {
