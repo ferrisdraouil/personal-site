@@ -4,6 +4,7 @@
 }
 
 .project-title {
+  text-align: left;
   color: #000b29;
 }
 .project-details {
@@ -15,12 +16,22 @@
   margin-left: 3em;
 }
 
-.image-link {
-}
 
 .image-link:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
+}
+
+@media only screen and (max-width: 767px) {
+  .media-body {
+    margin-left: 0em;
+  }
+  .project-title {
+    text-align: center;
+  }
+  .image-link {
+    margin-bottom: 5em;
+  }
 }
 
 @-webkit-keyframes jello-horizontal {
