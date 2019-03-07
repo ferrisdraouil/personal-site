@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 hr {
   border: none;
   height: 2px;
@@ -5,24 +7,27 @@ hr {
   background-color: #d70026;
 }
 
-.blurb {
-  text-shadow: 1px 1px 1px #2d3033;
-}
-
 .title {
   font-size: 50px;
   color: #d70026;
-  text-shadow: 2px 2px 2px #000b29;
+  font-family: 'Crimson Text', serif;
 }
 
 .body {
   font-size: 32px;
   color: #000b29;
-  text-shadow: 2px 2px 2px #d70026;
+  font-family: 'Crimson Text', serif;
 }
 
 .about {
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.angle {
+  grid-row: 6 / 7;
+  color: #d70026;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.5s both;
+
 }
 
 @keyframes text-focus-in {

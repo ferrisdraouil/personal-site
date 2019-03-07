@@ -69,7 +69,7 @@ Portfolio.defaultProps = {
   },
   jobly: {
     title: 'Jobly',
-    link: 'https://github.com/ferrisdraouil/react-jobly',
+    link: 'https://jobly-frontend.herokuapp.com/',
     img: jobly,
     stack: 'React.js, Redux.js, PostgreSQL, HTML5, CSS3',
     description:
@@ -77,14 +77,14 @@ Portfolio.defaultProps = {
   },
   microblog: {
     title: 'Microblog',
-    link: 'https://github.com/ferrisdraouil/microblog',
+    link: 'https://microblog-ferris-frontend.herokuapp.com/',
     img: microblog,
     stack: 'React.js, Redux.js, Node.js, Express.js, PostgreSQL',
     description:
       'A Full-Stack blog clone.  Users have full CRUD on articles, comments, and votes.  Details on all blogs, comments, and votes are stored in a Postgres Database.'
   },
   nfl: {
-    title: 'Winning in the NFL',
+    title: 'Winning Situations',
     link: 'https://github.com/ferrisdraouil/nfl_data',
     img: nfl,
     stack: 'React.js, Python, Pandas, D3',

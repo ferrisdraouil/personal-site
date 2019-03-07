@@ -11,10 +11,12 @@ hr {
   grid-row: 1;
   grid-column: 1 / -1;
   color: #d70026;
-  text-shadow: 1px 1px 1px #000b29;
   text-align: starts;
 }
 
 .project {
   grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap
 }
+
