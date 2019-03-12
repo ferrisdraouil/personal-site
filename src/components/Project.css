@@ -1,6 +1,7 @@
 .Project {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .project-title {
@@ -16,13 +17,16 @@
   margin-left: 3em;
 }
 
+.image-link {
+  box-shadow: 2px 2px 2px #000b29;
+}
 
 .image-link:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   .media-body {
     margin-left: 0em;
   }
@@ -31,6 +35,12 @@
   }
   .image-link {
     margin-bottom: 5em;
+    align-self: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .Project {
+    flex-direction: row;
   }
 }
 

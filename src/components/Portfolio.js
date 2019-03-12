@@ -85,7 +85,7 @@ Portfolio.defaultProps = {
   },
   nfl: {
     title: 'Winning Situations',
-    link: 'https://github.com/ferrisdraouil/nfl_data',
+    link: 'https://winning-situations.herokuapp.com/',
     img: nfl,
     stack: 'React.js, Python, Pandas, D3',
     description:

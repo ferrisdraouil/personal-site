@@ -20,3 +20,10 @@ hr {
   flex-wrap: wrap
 }
 
+@media only screen and (max-width: 1023px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  
+}

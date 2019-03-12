@@ -16,7 +16,7 @@ class About extends Component {
           </p>
         </div>
         <hr />
-        <i class="fas fa-angle-down fa-5x angle" />
+        <i className="fas fa-angle-down fa-5x angle" />
       </div>
     );
   }
